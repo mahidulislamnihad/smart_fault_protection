@@ -6,8 +6,7 @@
 
 ---
 
-> **Note:** This documentation section was added after the submission deadline, to describe in more detail how the project works and how to use it. The source code, simulation files and report were not changed; only this documentation below content was updated.
-
+> **Note:** From now This documentation below section was added after the submission deadline, to describe in more detail how the project works and how to use it. The source code, simulation files and report were not changed.
 > **Safety notice:** this project was designed and verified **in simulation only** ...
 
 ## How the Project Works
