@@ -108,13 +108,14 @@ Each module has one responsibility and talks to the others through its header. H
 
 ## Test Results (Simulation)
 
-| Test | Expected | Observed |
+| Test | Expected | Status |
 |---|---|---|
 |Voltage≤250 (wrong value in report 220 V) && Fault ≤Fix number of fault | Safe load operating green LED on  | Achived |
 | 220≥Voltage≤250 && Fault ≤Fix number | Load operating Blue LED on for abnormal  | Not Achieved |
 | Voltage≥250 && Fault ≤Fix number of fault  | Load Disconnected RED LED on restart when voltage≤250 | Achieved |
 | Voltage≤250 && Fault ≥Fix number of fault   | Load Disconnected Manual Reset needed | Achieved |
-Measured RMS voltage matched the source setting and measured RMS current matched the simulated meters. 
+
+##Measured RMS voltage matched the source setting and measured RMS current matched the simulated meters. 
 
 ## Limitations and Planned Work
 - Settings are stored in RAM and return to their defaults at power-off. EEPROM storage with a checksum is planned.
