@@ -26,10 +26,10 @@ The device protects an appliance from over-voltage and over-current. It measures
 |---|---|
 | Voltage sense | A0 |
 | Current sense | A1 |
-| Relay driver | D8 |
-| LEDs: green, amber, red | D22, D23, D24 |
-| Buttons: UP, DOWN, SELECT, BACK, RESET | D26, D27, D28, D29, D30 (each to GND, internal pull-ups) |
-| LCD: RS, E, D4, D5, D6, D7 | D40, D41, D42, D43, D44, D45 |
+| Relay driver | 6 |
+| LEDs: green, yellow, red | 22, 23, 24 |
+| Buttons: UP, DOWN, SELECT, BACK, RESET | 26, 27, 28, 29, 30  |
+| LCD: RS, E, D4, D5, D6, D7 | 12,11,10,9,8,7,16,2 |
 
 ### Measurement
 
